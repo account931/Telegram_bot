@@ -8,7 +8,7 @@
 define('API_URL', 'https://api.telegram.org/bot'.BOT_TOKEN.'/'); //BOT_TOKEN is from {Credntials/credentials.php}
 
 //gets the current page URL, i.e http://localhost/telegram_Bot/auto_respond_chat.php
-$currentPage =(isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https" : "http") . "://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]";;
+$currentPage =(isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https" : "http") . "://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]";
 define('WEBHOOK_URL', $currentPage);
 
 
