@@ -1,0 +1,19 @@
+.footer {
+  position: absolute; 
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  background-color: lavender; /* #efefef; */ /* #2ba6cb; */
+  text-align: center;
+  
+}
+
+ul li{
+	/*padding: 1.2em;*/
+	margin: 0 0 3px 0;
+}
+
+ul{
+	margin: 1.2em;
+}
