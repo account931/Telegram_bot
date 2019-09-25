@@ -96,21 +96,6 @@
 		
 		
 		
-		  <!-----Footer ---->
-		        
-				<div class="footer "> <!--navbar-fixed-bottom  fixxes bootom problem-->
-				    <!--Contact: --> <strong>dimmm931@gmail.com</strong><br>
-					<?php  echo date("Y"); ?>
-				</div>
-		<!--END Footer ---->  
-		
-		
-		
-		
-
-    
-    </body>
-</html>
 
 
 
@@ -144,12 +129,13 @@
 
 
 
+ 
 
-
+ <div class="col-sm-12 col-xs-12 break-word">
 
 
 <?php
-//sends a message to certain channel with bot via form php curl
+//sends a message to certain channel with bot via form php curl  
  
   //credentialls are in Credntials/credentials.php (BOT_TOKEN, CHAT_ID)
   require 'Credentials/credentials.php'; //Composer autoload
@@ -224,3 +210,22 @@ $response = file_get_contents($url,null,null);
 	unset($_REQUEST);
 }
 ?>
+</div>
+
+
+
+
+
+
+		  <!-------------- Footer ----------->
+		        
+				<div class="footer "> <!--navbar-fixed-bottom  fixxes bootom problem-->
+				    <!--Contact: --> <strong>dimmm931@gmail.com</strong><br>
+					<?php  echo date("Y"); ?>
+				</div>
+		<!----------- END Footer -------------->  
+		
+		
+    
+    </body>
+</html>

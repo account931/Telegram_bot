@@ -9,7 +9,7 @@
       <title>Telegram Bot</title>
   
       <!--Favicon-->
-      <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+      <!--<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">-->
 	  
 
       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
@@ -61,7 +61,7 @@
 			       <a href="bot_send_message_via_curl.php"><i class="fa fa-plug" aria-hidden="true"></i> Send a message to Telegram channel via bot</a>
 				</li>
 				
-				<li class="list-group-item">
+				<li class="list-group-item break-word">
 				   <a href="auto_respond_chat.php"> <i class="fa fa-plug" aria-hidden="true"></i> Chat with a bot =><span style="font-size:0.8em; margin-left:0.5em;">({$_SERVER[HTTP_HOST]&$_SERVER[REQUEST_URI]} is used)</span></a>
 				</li>
 				<!--

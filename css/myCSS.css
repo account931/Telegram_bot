@@ -17,3 +17,8 @@ ul li{
 ul{
 	margin: 1.2em;
 }
+
+/*to fit text within the div */
+.break-word{
+	word-break: break-all;
+}
